@@ -79,6 +79,8 @@ HTTPS
 - 구글 맵을 활용한 해외 시장 확장 가능성
 
 3. 그림으로 표현
+
+
 ![image](https://github.com/maxkim77/HackertonProject/assets/141907655/937b1acc-c6fe-46ef-abb5-d62169d1cf15)
 
 <앱화면 기능>
