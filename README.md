@@ -1,6 +1,9 @@
 # HackertonProject
 
 
+![슬라이드1](https://github.com/maxkim77/HackertonProject/assets/141907655/629b8643-a80e-45aa-a135-40576aea2458)
+
+
 1.1 아이디어 제시: 
 
 
