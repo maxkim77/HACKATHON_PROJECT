@@ -47,9 +47,12 @@
 
 3) 개발범위: 
 
-프론트엔드
+
+**프론트엔드**
 - Tech Stack : HTML, CSS, JavaScript, React, Bootstrap
-백엔드
+
+
+**백엔드**
 - Tech Stack : Java, Spring
 - 데이터베이스: Oracle
 - 코드 에디터 : VSCode
