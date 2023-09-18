@@ -47,6 +47,8 @@ HTTPS
 
 
 2.2 서비스 모델 
+
+
 ![image](https://github.com/maxkim77/HackertonProject/assets/141907655/7868f2f6-526c-45c2-976f-38667e8aa377)
 1) 서비스 모델 구현 목표: 사용자 친화적인 인터페이스와 정확한 위치 정보 제공.
 2) 개발 내용: 앱 및 웹 기반 서비스 개발, 데이터베이스 구축, 사용자 피드백 시스템 도입
@@ -83,12 +85,15 @@ HTTPS
 
 ![image](https://github.com/maxkim77/HackertonProject/assets/141907655/937b1acc-c6fe-46ef-abb5-d62169d1cf15)
 
+
 <앱화면 기능>
 1) 회원가입/로그인 바로 시작기능
 2) GPS활용 근처 화장실 위치서비스(별점 서비스)
 3) 긴급메시지발송기능
 4) 박스태그를 통한 검색필터기능
 5) 설정표시 클릭시 각종 화장실 신규 및 허위신고 기능
+
+
 ![image](https://github.com/maxkim77/HackertonProject/assets/141907655/1ae92658-9c9b-48fa-9021-e1dad3127030)
 
 <웹화면기능>
@@ -127,7 +132,11 @@ HTTPS
 
 
 5.1 최종 결과물 일정
+
+
 ![image](https://github.com/maxkim77/HackertonProject/assets/141907655/cd2e2e45-ad86-4fa9-81ed-8e98e8919798)
+
+
 
 1주차
 2주차
