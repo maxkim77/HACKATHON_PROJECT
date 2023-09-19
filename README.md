@@ -130,6 +130,9 @@
 **4. 기대효과 및 활용방안**
 
 
+![슬라이드5](https://github.com/maxkim77/HackertonProject/assets/141907655/2354cba8-5e64-4368-9831-c60ad08600cb)
+
+
 4-1 제시한 모델의 파급효과 및 디지털 신기술 활용
 
 
