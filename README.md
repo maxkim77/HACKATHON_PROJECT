@@ -1,4 +1,4 @@
-# HACKATHON_PROJECT
+# HACKATHON PROJECT
 
 
 ![기획안 자료](https://github.com/maxkim77/HackertonProject/assets/141907655/fc49e9f6-3461-4879-b672-c5e073eb5122)
