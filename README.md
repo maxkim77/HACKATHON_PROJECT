@@ -1,7 +1,7 @@
 # HackertonProject
 
 
-![슬라이드1](https://github.com/maxkim77/HackertonProject/assets/141907655/629b8643-a80e-45aa-a135-40576aea2458)
+![기획안 자료](https://github.com/maxkim77/HackertonProject/assets/141907655/fc49e9f6-3461-4879-b672-c5e073eb5122)
 
 
 **1. 추진배경**
