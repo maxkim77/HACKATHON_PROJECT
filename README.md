@@ -256,6 +256,8 @@
 - 김**
 기술 및 백엔드: 기능 구현 담당
 
+**6. 배포 :** https://maxkim77.github.io/HACKATHON_PROJECT/  
+
 - 최**
 기술 및 백엔드: 기능 구현 담당
 
