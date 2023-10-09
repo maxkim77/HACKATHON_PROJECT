@@ -1,0 +1,154 @@
+/* 헤더에 flexbox 레이아웃 적용 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6d4ff;
+    color: #822a8a;
+    padding: 10px 20px;
+}
+
+/* 왼쪽 div 스타일 */
+.left {
+    /* 왼쪽으로 배치 */
+}
+
+.image-container {
+    width: 100px; /* 원하는 너비 지정 */
+    height: 40px; /* 원하는 높이 지정 */
+    overflow: hidden; /* 넘치는 이미지 부분 숨김 */
+}
+
+
+/* 이미지 스타일 */
+.image-container img {
+    width: 100%; /* 부모 요소(.image-container)의 너비에 맞게 이미지 크기 조절 */
+    height: auto; /* 비율 유지 */
+}
+
+/* 오른쪽 div 스타일 */
+.right {
+    /* 오른쪽으로 배치 */
+}
+
+.settings img {
+    width: 50px; /* 원하는 너비 설정 */
+    height: auto; /* 원본 비율 유지 */
+}
+
+/* 메뉴부분 */
+/* styles.css */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;  /* 너비를 조금 줄입니다. */
+  height: 100%;
+  background-color: #f2f2f2;  /* 연회색 배경 */
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 10px;  /* 오른쪽 여백을 위해 패딩 추가 */
+}
+
+.modal-content {
+  padding: 20px;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;  /* 닫기 버튼의 위치를 오른쪽에서 조금 더 내립니다. */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-buttons, .menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-button {
+  background-color: #e6e6fa;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;  /* 버튼 내의 텍스트를 가운데 정렬 */
+  margin-top: 10px;
+}
+
+.menu-button:hover {
+  background-color: #dcd6f7;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  align-self: center;  /* 이미지를 수직으로 가운데 정렬 */
+}
+
+  /* 모달이 열렸을 때 화면 어둡게 처리 (원하면 스타일을 추가로 수정하세요) */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 배경 색상 및 투명도 조절 */
+    z-index: 0; /* 모달보다 아래에 위치하도록 설정 */
+    display: none;
+  }
+  
+
+
+/* Fotter에 적용 */
+#main-footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6d4ff; /* footer 배경색 연보라색으로 설정 */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #main-footer .container .page-desc {
+    color: #822a8a; /* 텍스트 색상 변경 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    cursor: default; /* 링크로 인한 커서 스타일 제거 */
+  }
+  
+  #main-footer .container .developer-desc {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  #main-footer .container .developer-desc a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: #000; /* 검은색 글자 색상 추가 */
+  }
+  
+  #main-footer .container .developer-desc svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  #main-footer .container .developer-desc path {
+    fill: #822a8a; /* 아이콘 색상 변경 */
+  }
+  
