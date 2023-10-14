@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -18,18 +20,19 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-body {
+ html, body {
+  height: 100%;
   margin: 0;
+  overflow-y: auto;  /* 세로 스크롤을 활성화합니다. */
+  overflow-x: hidden;  /* 가로 스크롤을 비활성화합니다. */
 }
 
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block;
+header, main, footer {
+  width: 100%;
+  box-sizing: border-box;  /* 패딩과 테두리가 요소의 전체 너비와 높이에 포함되도록 합니다. */
 }
 
-/**
+/**s
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
@@ -144,6 +147,10 @@ sup {
 img {
   border-style: none;
 }
+
+
+
+
 
 /* Forms
    ========================================================================== */
@@ -398,9 +405,8 @@ body.non-scroll {
   margin: 0 auto;
 }
 
-body {
 
-}
+
 
 #main-header {
   width: 100%;
@@ -412,6 +418,7 @@ body {
   justify-content: space-between;
   padding: 0.625rem 0 0.5rem;
   box-sizing: border-box;
+  margin-bottom: 20px; /* 예: 하단 마진을 추가 */
 }
 #main-header .container .page-logo {
   padding: 0;
@@ -536,7 +543,7 @@ body, html {
 
 main{
   width: 100%;
-  height: calc(100% - 276px);
+  /* height: calc(100% - 276px); */
 }
 #main-container {
   text-align: center;

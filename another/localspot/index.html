@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./css/common.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<title>Document</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 	<header>
 		<div class="left">
 			<div class="image-container">    
-			<img src="./resources/img/logo_head.png">
+			<img src="/resources/img/logo_head.png">
 			</div>
 		</div>
 		<div class="right">
@@ -26,21 +26,21 @@
 				<div class="modal_black_plate"></div>
 				<div class="modal-content">
 					<div class="top_area">
-						<h2><img src="./resources/img/logo.png" alt="로고" class="logo-image"></h2>
+						<h2><img src="/resources/img/logo.png" alt="로고" class="logo-image"></h2>
 					</div>
 					<div class="person_img">
-						<img src="./resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
+						<img src="/resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
 					</div>
 					<div class="menu-buttons">
 						<button class="menu-button" onclick="navigateTo('another/profile/index.html')">회원정보</button>
-						<button class="menu-button" onclick="navigateTo('another/loginout/index.html')">로그인/로그아웃</button>
+						<button class="menu-button" onclick="navigateTo('another/map/index.html')">바로가기</button>
 						<button class="menu-button" onclick="navigateTo('another/map/index.html')">바로가기</button>
 						<button class="menu-button" onclick="navigateTo('another/new/index.html')">신규등록</button>
 						<button class="menu-button" onclick="navigateTo('another/report/index.html')">허위신고</button>
 						<button class="menu-button">커뮤니티</button>
 						<button class="menu-button" onclick="navigateTo('another/urgent/index.html')">긴급메시지설정</button>
 						<button class="menu-button" onclick="navigateTo('another/localspot/index.html')">주변명소</button>
-					</div>					
+					</div>		
 				</div>
 			</div>
 		</div>
@@ -51,20 +51,20 @@
 			<section class="container welcome" id="welecome">
 				<div class="info">
 					<div class="info-logo">
-						<img class="logo" src="resources/img/logo.png" alt="fitto logo">
+						<img class="logo" src="/resources/img/logo.png" alt="fitto logo">
 					</div>
 				<div class="col-container">
-					<button class="primary-button" id="signup-btn" onclick="navigateTo('./another/signup/index.html')">
+					<button class="primary-button" id="signup-btn" onclick="navigateTo('/another/signup/index.html')">
 						<div class="row-container">
 							<span>회원가입</span>
 						</div>
 					</button>
-					<button class="primary-button" id="login-btn" onclick="navigateTo('./another/loginout/index.html')">
+					<button class="primary-button" id="login-btn" onclick="navigateTo('/another/loginout/index.html')">
 						<div class="row-container">
 							<span>로그인</span>
 						</div>
 					</button>
-					<button class="secondary-button" id="chat-btn" onclick="navigateTo('./another/map/index.html')">
+					<button class="secondary-button" id="chat-btn" onclick="navigateTo('/another/map/index.html')">
 						<div class="row-container">
 							<img class="logo" src="resources/img/logo.png" width="20">
 							<span>바로가기</span>
@@ -115,6 +115,6 @@
 
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./js/scripts.js"></script>
-	<script src="./js/navi.js"></script>
+	<script src="/js/scripts.js"></script>
+	<script src="/js/navi.js"></script>
 </html>
