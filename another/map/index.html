@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./css/common.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<title>Document</title>
+	<!-- <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.4.0/kakao.min.js" integrity="sha384-mXVrIX2T/Kszp6Z0aEWaA8Nm7J6/ZeWXbL8UpGRjKwWe56Srd/iyNmWMBhcItAjH" crossorigin="anonymous"></script> -->
 </head>
 <body>
 	<!-- 헤드부분 -->
 	<header>
 		<div class="left">
 			<div class="image-container">    
-			<img src="./resources/img/logo_head.png">
+			<img src="/resources/img/logo_head.png">
 			</div>
 		</div>
 		<div class="right">
@@ -26,10 +27,10 @@
 				<div class="modal_black_plate"></div>
 				<div class="modal-content">
 					<div class="top_area">
-						<h2><img src="./resources/img/logo.png" alt="로고" class="logo-image"></h2>
+						<h2><img src="/resources/img/logo.png" alt="로고" class="logo-image"></h2>
 					</div>
 					<div class="person_img">
-						<img src="./resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
+						<img src="/resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
 					</div>
 					<div class="menu-buttons">
 						<button class="menu-button" onclick="navigateTo('../index.html')">홈으로</button>
@@ -41,40 +42,33 @@
 						<button class="menu-button" onclick="navigateTo('another/community/index.html')">커뮤니티</button>
 						<button class="menu-button" onclick="navigateTo('another/urgent/index.html')">긴급알림</button>
 						<button class="menu-button" onclick="navigateTo('another/localspot/index.html')">주변명소</button>
-					</div>					
+					</div>		
 				</div>
 			</div>
 		</div>
 	</header>
 	<!-- 메인 -->
-	<main>
-		<main id="main-container">
-			<section class="container welcome" id="welecome">
-				<div class="info">
-					<div class="info-logo">
-						<img class="logo" src="resources/img/logo.png" alt="fitto logo">
-					</div>
-				<div class="col-container">
-					<button class="primary-button" id="signup-btn" onclick="navigateTo('./another/signup/index.html')">
-						<div class="row-container">
-							<span>회원가입</span>
-						</div>
-					</button>
-					<button class="primary-button" id="login-btn" onclick="navigateTo('./another/loginout/index.html')">
-						<div class="row-container">
-							<span>로그인</span>
-						</div>
-					</button>
-					<button class="secondary-button" id="chat-btn" onclick="navigateTo('./another/map/index.html')">
-						<div class="row-container">
-							<img class="logo" src="resources/img/logo.png" width="20">
-							<span>바로가기</span>
-						</div>
-					</button>
-				</div>
-			</section>
-		</main>
-	</main>
+
+	<input type="text" id="keyword" placeholder="검색어를 입력하세요">
+	<button onclick="searchPlaces()">검색하기</button>
+	<ul id="placesList"></ul>
+    <div id="pagination"></div>
+        	<div id="map" style="width:100%;height:500px;">
+			
+			</div> <!-- 이 부분에 지도가 렌더링됩니다 -->
+			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=14bed98573841b1c1c57db6ce73b116a"></script>
+			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
+
+			<script>
+				var container = document.getElementById('map');
+				var options = {
+					center: new kakao.maps.LatLng(33.450701, 126.570667),
+					level: 3
+				};
+		
+				var map = new kakao.maps.Map(container, options);
+			</script>
+
 	<footer id="main-footer">
 		<div class="container">
 			<div class="page-desc">
@@ -116,6 +110,8 @@
 
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./js/scripts.js"></script>
-	<script src="./js/navi.js"></script>
+	<script src="/js/scripts.js"></script>
+	<script src="/js/navi.js"></script>
+	<script src="/js/app.js"></script>
+	<!-- <script src="/js/app.js"></script> -->
 </html>

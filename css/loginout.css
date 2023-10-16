@@ -1,0 +1,29 @@
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    display: flex; /* 세로 중앙 정렬을 위해 추가 */
+    flex-direction: column; /* 세로 중앙 정렬을 위해 추가 */
+    align-items: center; /* 세로 중앙 정렬을 위해 추가 */
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* 
+.form-group label {
+    margin-right: 10px;
+}
+
+.form-group input {
+    flex-grow: 1;
+} */

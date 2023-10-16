@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./css/common.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/profile.css">
 	<title>Document</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
 	<header>
 		<div class="left">
 			<div class="image-container">    
-			<img src="./resources/img/logo_head.png">
+			<img src="/resources/img/logo_head.png">
 			</div>
 		</div>
 		<div class="right">
@@ -26,10 +27,10 @@
 				<div class="modal_black_plate"></div>
 				<div class="modal-content">
 					<div class="top_area">
-						<h2><img src="./resources/img/logo.png" alt="로고" class="logo-image"></h2>
+						<h2><img src="/resources/img/logo.png" alt="로고" class="logo-image"></h2>
 					</div>
 					<div class="person_img">
-						<img src="./resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
+						<img src="/resources/img/profile_default.png" alt="회원정보 이미지" class="user-image">
 					</div>
 					<div class="menu-buttons">
 						<button class="menu-button" onclick="navigateTo('../index.html')">홈으로</button>
@@ -41,40 +42,54 @@
 						<button class="menu-button" onclick="navigateTo('another/community/index.html')">커뮤니티</button>
 						<button class="menu-button" onclick="navigateTo('another/urgent/index.html')">긴급알림</button>
 						<button class="menu-button" onclick="navigateTo('another/localspot/index.html')">주변명소</button>
-					</div>					
+					</div>		
 				</div>
 			</div>
 		</div>
 	</header>
 	<!-- 메인 -->
-	<main>
-		<main id="main-container">
-			<section class="container welcome" id="welecome">
-				<div class="info">
-					<div class="info-logo">
-						<img class="logo" src="resources/img/logo.png" alt="fitto logo">
-					</div>
+	<main id="main-container" style="width:100%;height:600px;">
+        <!-- 회원 정보 페이지 내용 시작 -->
+        <div class="container member-info">
+            <!-- 회원 정보 업데이트 폼 -->
+            <form class="mt-3">
+				<div class="container member-info">
+					<h1 class="mt-5">회원 정보</h1>
+					<!-- 회원 정보 표 -->
+					<table class="table table-bordered mt-3">
+						<tr>
+							<th>아이디</th>
+							<td>user123</td>
+						</tr>
+						<tr>
+							<th>이름</th>
+							<td>홍길동</td>
+						</tr>
+						<tr>
+							<th>이메일</th>
+							<td>user123@example.com</td>
+						</tr>
+						<tr>
+							<th>전화번호</th>
+							<td>010-1234-1234</td>
+						</tr>
+						<!-- ... 기타 정보 -->
+					</table>
+				</div>
+				<br>
+				<br>
+				<br>
 				<div class="col-container">
-					<button class="primary-button" id="signup-btn" onclick="navigateTo('./another/signup/index.html')">
+					<button class="primary-button">
 						<div class="row-container">
-							<span>회원가입</span>
-						</div>
-					</button>
-					<button class="primary-button" id="login-btn" onclick="navigateTo('./another/loginout/index.html')">
-						<div class="row-container">
-							<span>로그인</span>
-						</div>
-					</button>
-					<button class="secondary-button" id="chat-btn" onclick="navigateTo('./another/map/index.html')">
-						<div class="row-container">
-							<img class="logo" src="resources/img/logo.png" width="20">
-							<span>바로가기</span>
+							<span>업데이트</span>
 						</div>
 					</button>
 				</div>
-			</section>
-		</main>
-	</main>
+            </form>
+        </div>
+        <!-- 회원 정보 페이지 내용 끝 -->
+    </main>
 	<footer id="main-footer">
 		<div class="container">
 			<div class="page-desc">
@@ -116,6 +131,6 @@
 
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./js/scripts.js"></script>
-	<script src="./js/navi.js"></script>
+	<script src="/js/scripts.js"></script>
+	<script src="/js/navi.js"></script>
 </html>

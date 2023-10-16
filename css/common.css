@@ -1,0 +1,263 @@
+/* 헤더에 flexbox 레이아웃 적용 */
+header {
+	display: flex;
+	min-height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	color: #822a8a;
+	padding: 0px 20px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+/* 왼쪽 div 스타일 */
+.left {
+		/* 왼쪽으로 배치 */a
+}
+
+.image-container {
+		width: 100px; /* 원하는 너비 지정 */
+		height: 40px; /* 원하는 높이 지정 */
+		overflow: hidden; /* 넘치는 이미지 부분 숨김 */
+}
+
+
+/* 이미지 스타일 */
+.image-container img {
+		width: 100%; /* 부모 요소(.image-container)의 너비에 맞게 이미지 크기 조절 */
+		height: auto; /* 비율 유지 */
+}
+
+/* 오른쪽 div 스타일 */
+.right {
+		/* 오른쪽으로 배치 */
+}
+
+.settings img {
+		width: 50px; /* 원하는 너비 설정 */
+		height: auto; /* 원본 비율 유지 */
+}
+
+/* 메뉴부분 */
+/* styles.css */
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 280px;  /* 너비를 조금 줄입니다. */
+	height: 100%;
+	background-color: #f2f2f2;  /* 연회색 배경 */
+	z-index: 1;
+	overflow-x: hidden;
+	transition: 0.3s;
+	padding: 10px;  /* 오른쪽 여백을 위해 패딩 추가 */
+}
+.modal_black_plate{
+    display: none;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+	z-index: 1;
+}
+.modal_black_plate.active{
+	display: block;
+}
+.modal-content {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	top: 0px;
+	right: -100%;
+	background-color: #fff;
+	transition: 0.4s;
+	z-index: 2;
+}
+.modal-content.active{
+	right: 0;
+}
+.modal-content .top_area{
+	display: flex;
+	height: 70px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+.modal-content .top_area .close {
+	position: relative;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border: transparent;
+	background-color: transparent;
+	padding: 10px;
+}
+.modal-content .top_area .close img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.modal-content .top_area h2{
+	display: flex;
+	height: 100%;
+}
+.modal-content .top_area h2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.modal-content .person_img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	height: 70px;
+}
+.modal-content .person_img img{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+	border: 2px solid #fff;
+}
+.menu-buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+}
+.menu-item{
+	display: flex;
+	align-items: center;
+}
+.menu-button {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: left;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 17px 0px;
+    padding-left: 20px;
+}
+
+.menu-button:hover {
+	background-color: #dcd6f7;
+}
+
+.logo-image {
+	width: 60px;
+}
+
+.user-image {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+/* 모달이 열렸을 때 화면 어둡게 처리 (원하면 스타일을 추가로 수정하세요) */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* 배경 색상 및 투명도 조절 */
+	z-index: 0; /* 모달보다 아래에 위치하도록 설정 */
+	display: none;
+}
+/* 모달 버튼 start */
+.menu-trigger {
+	z-index: 3;
+}
+.menu-trigger,
+.menu-trigger span {
+	display: inline-block;
+	transition: all .4s;
+	box-sizing: border-box;
+}
+
+.menu-trigger {
+	position: relative;
+	width: 25px;
+	height: 19px;
+	background-color: transparent;
+	border: 0px solid transparent;
+}
+
+.menu-trigger span {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #303030;
+	border-radius: 4px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+	top: 0;
+}
+
+.menu-trigger span:nth-of-type(2) {
+	top: 9px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+	bottom: 0;
+}
+/* type-01 */
+/* 중앙 라인이 고정된 자리에서 투명하게 사라지며 상하라인 회전하며 엑스자 만들기 */
+.menu-trigger.active span:nth-of-type(1) {
+	-webkit-transform: translateY (9px) rotate (-45deg);
+	transform: translateY(9px) rotate(-45deg);
+}
+
+.menu-trigger.active span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.menu-trigger.active span:nth-of-type(3) {
+	-webkit-transform: translateY(-9px) rotate(45deg);
+	transform: translateY(-9px) rotate(45deg);
+}
+/* 모달 버튼 end */
+
+
+/* Fotter에 적용 */
+#main-footer .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	
+#main-footer .container .page-desc {
+	color: #822a8a; /* 텍스트 색상 변경 */
+	text-decoration: none; /* 링크의 밑줄 제거 */
+	cursor: default; /* 링크로 인한 커서 스타일 제거 */
+}
+
+#main-footer .container .developer-desc {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+#main-footer .container .developer-desc a {
+	text-decoration: none; /* 링크의 밑줄 제거 */
+	color: #000; /* 검은색 글자 색상 추가 */
+}
+
+#main-footer .container .developer-desc svg {
+	width: 2rem;
+	height: 2rem;
+}
+
+#main-footer .container .developer-desc path {
+	fill: #822a8a; /* 아이콘 색상 변경 */
+}

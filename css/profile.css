@@ -1,0 +1,10 @@
+/* /css/style.css 파일에 추가 */
+.member-info .table {
+    width: 60%;
+    margin: auto;
+}
+.member-info .table th,
+.member-info .table td {
+    text-align: left;
+    padding: 10px;
+}
