@@ -5,7 +5,6 @@
 | **main**    | 홈 (Home)                                        | `HomeView`                           | `home.html`                           |
 |             | 바로가기 (Shortcut)                              | `ShortcutView`                       | `shortcut.html`                       |
 |             | 앱다운로드 (App Download)                        | `AppDownloadView`                    | `app_download.html`                   |
-|             | 긴급알림 (Urgent Notification)                   | `UrgentNotificationView`             | `urgent_notification.html`            |
 |             | 주변명소 (Local Spots)                           | `LocalSpotsView`                     | `local_spots.html`                    |
 |             | 신규등록 (New Registration)                      | `NewRegistrationView`                | `new_registration.html`               |
 |             | 허위신고 (False Report)                          | `FalseReportView`                    | `false_report.html`                   |
