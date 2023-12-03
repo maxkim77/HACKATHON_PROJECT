@@ -46,30 +46,16 @@
 
 ## Tech Stack
 
-### 프론트엔드
+### Tech
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### 백엔드
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
-### 데이터베이스
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 코드 에디터
-![VSCode](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-
 ### 배포 및 버전 관리
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### 모바일앱
 ![Glide](https://img.shields.io/badge/Glide-00BFFF?style=for-the-badge&logo=glide&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 
 
@@ -139,15 +125,7 @@
 
 
 **3.2 기존 기능 및 기술 대비 독창성과 우수성**
-
-
-**(1) 독창성**: 
 - 취약 계층을 위한 보호자 호출 기능(등록된 메시지 발송) 
-- 시각장애인을 위한 AI 음성 인식 시스템
-- 사진 등을 포함한 리뷰 기능을 통한 화장실 품질을 보장
-
-
-**(2) 우수성**:
 - 검색 필터 기능을 통한 다양한 화장실 옵션 제공
 - 신규화장실 신고 및 등록을 통한 확장 가능성
 - 구글 맵을 활용한 해외 시장 확장 가능성
