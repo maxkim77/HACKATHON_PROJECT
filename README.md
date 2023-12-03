@@ -1,7 +1,7 @@
 # HACKATHON PROJECT<FitTo>
 
 
-![기획안 자료](https://github.com/maxkim77/HackertonProject/assets/141907655/fc49e9f6-3461-4879-b672-c5e073eb5122)
+![슬라이드1](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/a096edc5-acfb-4027-b423-6da90dbaf662)
 
 
 **1. 추진배경**
@@ -132,37 +132,13 @@
 
 **3.3 그림으로 표현**
 
-
-![슬라이드5](https://github.com/maxkim77/HackertonProject/assets/141907655/fad22eca-69bc-41f1-b2b0-f5897514468a)
-
-
-
-**<앱화면 기능>**
-
-
-(1) 회원가입/로그인 바로 시작기능
+![슬라이드9](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/d0225e39-c554-4e40-8774-befb56ef8a4a)
+![슬라이드11](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/126fd799-6395-429c-95d5-14b954ca44cb)
+![슬라이드10](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/64e93e33-2c5c-45be-a9db-9bc659c41398)
+![슬라이드13](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/5f0ecfa3-bbc9-476b-a529-487c4f72aa72)
+![슬라이드12](https://github.com/maxkim77/HACKATHON_PROJECT/assets/141907655/25182ea2-1888-4a2e-a826-1ebdc4843700)
 
 
-(2) GPS활용 근처 화장실 위치 길찾기 서비스 및 별점 서비스
-
-
-(3) 긴급 메시지 발송 기능
-(설정 버튼 클릭 후 사전 메시지 세팅, 이후 긴급시 Warning 버튼 클릭, 보호자 메시지 전송)
-
-
-(4) 박스태그를 통한 검색 필터 기능(검색창 하단)
-
-
-(5) 신규 화장실 등록 버튼 : 설정 표시 클릭시 각종 화장실 신규 및 허위신고 기능
-
-
-![슬라이드6](https://github.com/maxkim77/HackertonProject/assets/141907655/84154ed0-4a07-4cb3-87ed-fc914545f67f)
-
-
-**<웹화면기능>**
-
-
-(6) 커뮤니티 웹 화면 링크 연동
 
 
 **4. 기대효과 및 활용방안**
