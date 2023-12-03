@@ -228,5 +228,5 @@
 ✅Web : https://maxkim77.github.io/HACKATHON_PROJECT/  
 ✅App : https://copy-of-fitto-qrnb.glide.page
 
-**7. 결과 **
+**7. 결과 :**
 - 예선 참가(200:50)
