@@ -35,7 +35,8 @@
 
 
 - 프론트를 활용한 간단한 프로토 타입 개발
-- 보안 : HTTPS, HTTPS, 기본적인 Injection 및 XSS 공격에 대한 대응책 강구 
+- 데이터 : 구글 엑셀을 통한 간단한 공공데이터 관리
+- 보안 : Glide 앱 배포 및 Github 배포를 통한 프로토 타입 HTTPs 보안 강구
 - 테스팅: 통합 테스트, 성능 테스트, 사용자 테스트 
 
 
@@ -69,7 +70,6 @@
 **(2) 주요기능**: 
 - 공공 화장실의 위치 찾기 기능 (표시기능: 전체/장애인전용/기저귀 교체 공간 여부)
 - 화장실 리뷰 : 화장실 상태 관련 내용 및 별점
-- 시각장애인을 위한 AI 음성인식 API 활용
 - 취약 계층을 위한 보호자 호출 기능(등록된 메시지 발송) 
 - 신규등록 : 등록되지 않은 화장실 제보 기능
 - 커뮤니티 기능 : 화장실 정보 공유 및 지역정보 제공, 분실물 신고 게시글 업로드 가능
@@ -223,5 +223,7 @@
 기술 및 백엔드: 지도 데이터 담당
 
 **6. 배포 :** 
-https://maxkim77.github.io/HACKATHON_PROJECT/  
-https://copy-of-fitto-qrnb.glide.page
+
+
+✅Web : https://maxkim77.github.io/HACKATHON_PROJECT/  
+✅App : https://copy-of-fitto-qrnb.glide.page
