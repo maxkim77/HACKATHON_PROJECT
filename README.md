@@ -95,10 +95,6 @@
 
 **기술명세**
 - 반응형 프론트엔드 구축 및 모바일 환경 최적화
-- RESTful API를 통한 개발
-- 공공데이터 API 통신 및 비즈니스 로직간
-  Non-blocking I/O 지향
-- RDB 사용으로 DB 쿼리 최적화 및 유닛 테스트
 - 각 개발단위간 유닛 테스트 시행 및 피드백
 
 
@@ -226,4 +222,6 @@
 - 최**
 기술 및 백엔드: 지도 데이터 담당
 
-**6. 배포 :** https://maxkim77.github.io/HACKATHON_PROJECT/  
+**6. 배포 :** 
+https://maxkim77.github.io/HACKATHON_PROJECT/  
+https://copy-of-fitto-qrnb.glide.page
